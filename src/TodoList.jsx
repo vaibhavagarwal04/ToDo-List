@@ -72,8 +72,8 @@ export default function TodoList() {
     };
     return (
         <div>
-            <h2 style={{textDecoration:"underline wavy"}}>Todo List </h2>
-            <input style={{height:"30px",width:"200px"}}
+            <h2 style={{textDecoration:"underline wavy" , border:"2px solid white" , padding:"10px"}}>Todo List </h2>
+            <input style={{height:"30px",width:"200px", borderRadius:"10px", border:"none" , textAlign:"center"}}
                 placeholder="add a task"
                 onChange={updateTodoValue}
                 value={newTodo}
